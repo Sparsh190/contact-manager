@@ -6,7 +6,7 @@ const contactRoutes = require('./routes/contacts');
 
 const app = express();
 
-// Middleware
+// Middleware system
 app.use(cors());
 app.use(bodyParser.json());
 
