@@ -23,17 +23,13 @@ cd contact-manager
 
 For Backend:
 
-	1.	Navigate to the backend directory:
- cd backend
- Install the necessary dependencies:
- npm install
+	1.Navigate to the backend directory: cd backend
+        2.Install the necessary dependencies: npm install
 
  For Frontend:
 
-	1.	Navigate to the frontend directory:
-  cd ../frontend
-	2.	Install the necessary dependencies:
-   npm install
+	1.	Navigate to the frontend directory: cd ../frontend
+	2.	Install the necessary dependencies: npm install
 
 
  MongoDB Setup:
@@ -41,8 +37,7 @@ For Backend:
 Ensure you have MongoDB installed and running on your local machine. If you’re using a local instance, make sure MongoDB is running on the default port (27017).
 To start MongoDB:
 
-	•	On Mac/Linux:
-    mongod
+	•	On Mac/Linux:  mongod
   •	On Windows, start MongoDB using the MongoDB Compass or Command Line.
 
 If you’re using a cloud-based MongoDB solution (like MongoDB Atlas), replace the connection string in the backend with your cloud MongoDB URI.
